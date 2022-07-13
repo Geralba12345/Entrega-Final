@@ -1,5 +1,5 @@
 main {
-  background-color: #d9d9d9;
+  background-color: rgba(217, 217, 217, 55%);
   padding: 170px;
   font-family: 'IM Fell Great Primer', serif; }
   main .carrousil {
@@ -23,7 +23,7 @@ main {
 footer {
   display: flex;
   justify-content: center;
-  background-color: #d9d9d9;
+  background-color: rgba(217, 217, 217, 55%);
   padding: 25px;
   border-style: solid none none none;
   border-radius: 0px;
@@ -50,6 +50,25 @@ nav {
 .btn-secondary {
   background-color: #c4c408; }
 
-.card {
+.card, .card-primaria, .card-secondaria, .card-terciaria, .card-cuaternaria {
   padding: 15px;
   border: 0; }
+
+.card-primaria {
+  background-color: yellow; }
+
+.card-secondaria {
+  background-color: blue; }
+
+.card-terciaria {
+  background-color: maroon; }
+
+.card-cuaternaria {
+  background-color: springgreen; }
+
+.iframeContact {
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center; }

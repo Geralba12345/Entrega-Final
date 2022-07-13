@@ -17,6 +17,38 @@
     border: map-get($map: $card, $key: border );
 }
 
+.card-primaria{
+    @extend .card;
+    background-color: yellow;
+}
+
+.card-secondaria{
+    @extend .card;
+    background-color: blue
+
+}
+
+.card-terciaria{
+    @extend .card;
+    background-color: maroon
+}
+
+.card-cuaternaria{
+    @extend .card;
+    background-color: springgreen;
+}
+
+@mixin PropiedadesFlex ($display,$direccion,$wrap,$justify,$align) {
+    display: $display;
+    flex-direction: $direccion;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.iframeContact{
+    @include PropiedadesFlex(block,row,wrap,start,center )
+}
 
     
 
