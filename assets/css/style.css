@@ -43,3 +43,13 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%; }
+
+.btn-primary {
+  background-color: black; }
+
+.btn-secondary {
+  background-color: #c4c408; }
+
+.card {
+  padding: 15px;
+  border: 0; }

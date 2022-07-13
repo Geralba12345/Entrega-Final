@@ -4,3 +4,19 @@
 @import "nav.scss";
 @import "margenes.scss";
 @import "body.scss";
+
+@each $clave, $var in $colores {
+    .btn-#{$clave}{
+        background-color: $var;
+    }
+    
+}
+
+.card{
+    padding: map-get($map: $card, $key: padding );
+    border: map-get($map: $card, $key: border );
+}
+
+
+    
+
