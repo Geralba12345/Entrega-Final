@@ -1,5 +1,5 @@
 main {
-  background-color: rgba(217, 217, 217, 55%);
+  background-color:  rgba(217, 217, 217, 55%);
   padding: 170px;
   font-family: 'IM Fell Great Primer', serif; }
   main .carrousil {
@@ -19,11 +19,14 @@ main {
     padding: 20px; }
   main .formContact {
     padding: 30px; }
+  main .tituloTienda {
+    display: flex;
+    justify-content: center; }
 
 footer {
   display: flex;
   justify-content: center;
-  background-color: rgba(217, 217, 217, 55%);
+  background-color:  rgba(217, 217, 217, 55%);
   padding: 25px;
   border-style: solid none none none;
   border-radius: 0px;
