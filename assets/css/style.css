@@ -1,5 +1,5 @@
 main {
-  background-color:  rgba(217, 217, 217, 55%);
+  background-color: #d9d9d9;
   padding: 170px;
   font-family: 'IM Fell Great Primer', serif; }
   main .carrousil {
@@ -26,7 +26,7 @@ main {
 footer {
   display: flex;
   justify-content: center;
-  background-color:  rgba(217, 217, 217, 55%);
+  background-color: #d9d9d9;
   padding: 25px;
   border-style: solid none none none;
   border-radius: 0px;
@@ -35,7 +35,17 @@ footer {
   background-image: linear-gradient(to bottom, #bdbd45, #131111); }
 
 nav {
-  background-image: linear-gradient(to bottom, #bdbd45, #131111); }
+  background-image: linear-gradient(to top, #bdbd45, #131111);
+  font-family: 'IM Fell Great Primer', serif;
+  border-style: none none solid none;
+  border-radius: 0px;
+  border-width: 1.5px; }
+
+.navbar {
+  padding: 20px; }
+
+.iconify {
+  color: black; }
 
 * {
   margin: 0;
