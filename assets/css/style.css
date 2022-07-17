@@ -1,5 +1,5 @@
 main {
-  background-color: #d9d9d9;
+  background-color: rgba(217, 217, 217, 55%);
   padding: 170px;
   font-family: 'IM Fell Great Primer', serif; }
   main .carrousil {
@@ -26,7 +26,7 @@ main {
 footer {
   display: flex;
   justify-content: center;
-  background-color: #d9d9d9;
+  background-color: rgba(217, 217, 217, 55%);
   padding: 25px;
   border-style: solid none none none;
   border-radius: 0px;
