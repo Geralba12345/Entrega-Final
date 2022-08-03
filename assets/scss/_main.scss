@@ -7,7 +7,7 @@ main {
         padding: 20px;
     }
     .imgNos{
-        padding: 20px;
+        padding: 10px;
     }
   
     .artCompra{
@@ -39,5 +39,13 @@ main {
     .tituloTienda{
         display: flex;
         justify-content: center;
+    }
+
+    .tarjetas{
+        margin: 80px;
+    }
+
+    .disImg{
+        margin: 40px;
     }
 }
