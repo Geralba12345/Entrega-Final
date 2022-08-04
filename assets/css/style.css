@@ -30,6 +30,12 @@ main {
     max-width: 540px; }
   main .btn {
     font-family: 'IM Fell Great Primer', serif; }
+  main h3 {
+    -webkit-text-stroke: 2px white;
+    color: black; }
+  main .textCarro {
+    -webkit-text-stroke: 1px white;
+    color: black; }
 
 footer {
   display: flex;
@@ -79,10 +85,10 @@ nav {
   background-color: yellow; }
 
 .card-secondaria {
-  background-color: blue; }
+  background-color: aqua; }
 
 .card-terciaria {
-  background-color: maroon; }
+  background-color: brown; }
 
 .card-cuaternaria {
   background-color: springgreen; }
