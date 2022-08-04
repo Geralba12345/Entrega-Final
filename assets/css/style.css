@@ -26,6 +26,10 @@ main {
     margin: 80px; }
   main .disImg {
     margin: 40px; }
+  main .card, main .card-primaria, main .card-secondaria, main .card-terciaria, main .card-cuaternaria {
+    max-width: 540px; }
+  main .btn {
+    font-family: 'IM Fell Great Primer', serif; }
 
 footer {
   display: flex;
